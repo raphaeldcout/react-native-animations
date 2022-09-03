@@ -46,7 +46,7 @@ const Picture = ({
   tapTransitionX,
   tapTransitionXImg,
 }: IPicturesProps) => {
-  const startingPosition = CARD_WIDTH / 2 - CARD_WIDTH / 2;
+  const startingPosition = 0;
   const x = useSharedValue(startingPosition);
   const y = useSharedValue(startingPosition);
   const rotateZ = useSharedValue(0);
@@ -71,7 +71,11 @@ const Picture = ({
     },
     onEnd: (event, ctx) => {
       const destX = snapPoint(x.value, event.velocityX, SNAP_POINTS_WIDTH);
+      if (destX !== 0) {
+        tapTransitionXImg.value = 0;
+      }
       x.value = withSpring(destX, { stiffness: 200, damping: 15 });
+      
       svgX.value = startingPosition;
 
       const destY = snapPoint(y.value, event.velocityY, SNAP_POINTS_HEIGHT);

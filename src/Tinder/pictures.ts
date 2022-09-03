@@ -59,7 +59,7 @@ const pictures = [
     distance: "13 kilometers away",
     active: false,
   },
-  {
+  /*{
     source: [
       require("../../src/Tinder/assets/lily7.jpg"),
       require("../../src/Tinder/assets/5.jpg"),
@@ -69,7 +69,7 @@ const pictures = [
     age: "33",
     distance: "3 kilometers away",
     active: false,
-  },
+  },*/
   {
     source: [
       require("../../src/Tinder/assets/gustavo-1.jpg"),
