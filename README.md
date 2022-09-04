@@ -3,11 +3,11 @@
 
 # Install
 ```
-npx expo start 
+# npx expo start 
 
 or 
 
-expo start
+# expo start
 ```
 # Preview animations
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://drive.google.com/file/d/1cIeMGGoHqEnpVn7mdOhDwTDodyeLYRrz/view?usp=sharing)
