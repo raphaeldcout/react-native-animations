@@ -4,5 +4,4 @@
 # Usage
 ```
 npx expo start or expo start
-
 ```
