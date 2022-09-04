@@ -3,5 +3,9 @@
 
 # Usage
 ```
-npx expo start or expo start
+npx expo start 
+
+or 
+
+expo start
 ```
