@@ -10,4 +10,4 @@ or
 # expo start
 ```
 # Preview animations
-![This is an image]([https://drive.google.com/file/d/1cIeMGGoHqEnpVn7mdOhDwTDodyeLYRrz/view?usp=sharing](https://drive.google.com/file/d/1cIeMGGoHqEnpVn7mdOhDwTDodyeLYRrz))
+![This is an image](https://www.dropbox.com/s/s0q9zkqaeu6qv3v/tinder-clone-swiping.png)
