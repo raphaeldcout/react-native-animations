@@ -1,7 +1,10 @@
 import React from "react";
 
 import { StyleSheet, View, Dimensions } from "react-native";
-import { PanGestureHandler } from "react-native-gesture-handler";
+import {
+  PanGestureHandler,
+  PanGestureHandlerGestureEvent,
+} from "react-native-gesture-handler";
 
 import Animated, {
   useAnimatedGestureHandler,
@@ -26,7 +29,10 @@ const Swipe = () => {
     };
   });
 
-  const eventHandler = useAnimatedGestureHandler({
+  const eventHandler = useAnimatedGestureHandler<
+    PanGestureHandlerGestureEvent,
+    { startX: number; startY: number }
+  >({
     onStart: (event, ctx) => {
       pressed.value = true;
       ctx.startX = x.value;

@@ -17,8 +17,9 @@ const Components = () => {
         routeName="SwipeKeepCurrentPosition"
       />
       <ListItem title="Scroll view" routeName="ScrollView" />
-      <ListItem title="Nike store shopping" routeName="TarotCards" />
+      <ListItem title="Tarot cards" routeName="TarotCards" />
       <ListItem title="Tinder swiping" routeName="Tinder" />
+      <ListItem title="Nike store shopping" routeName="NikeStore" />
     </View>
   );
 };

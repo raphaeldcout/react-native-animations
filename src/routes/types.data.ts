@@ -6,6 +6,7 @@ enum Routes {
   ScrollView,
   TarotCards,
   Tinder,
+  NikeStore
 }
 
 export type enumRoutes = keyof typeof Routes;

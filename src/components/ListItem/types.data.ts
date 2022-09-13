@@ -1,4 +1,5 @@
-import { enumRoutes } from "../../routes/types.data";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { enumRoutes, RootStackParamList } from "../../routes/types.data";
 
 export interface IListItemProps {
   title: string;
@@ -6,3 +7,6 @@ export interface IListItemProps {
 }
 
 export type EnumRoutes = enumRoutes;
+
+export type ScreensNavigationsProps =
+  NativeStackNavigationProp<RootStackParamList>;

@@ -13,6 +13,7 @@ import { ReturnInitialPosition, KeepPositionOnScreen } from "../Swipe";
 import ScrollView from "../ScrollView";
 import { Tarot } from "../TarotCards";
 import { Tinder } from "../Tinder";
+import { NikeStore } from "../NikeStore";
 
 const Routes = () => {
   return (
@@ -57,6 +58,11 @@ const Routes = () => {
         <RootStack.Screen
           name="Tinder"
           component={Tinder}
+          options={{ headerShown: false }}
+        />
+        <RootStack.Screen
+          name="NikeStore"
+          component={NikeStore}
           options={{ headerShown: false }}
         />
       </RootStack.Navigator>

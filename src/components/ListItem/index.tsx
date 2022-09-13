@@ -7,10 +7,10 @@ import { RectButton } from "react-native-gesture-handler";
 
 import Animated, { FadeInDown } from "react-native-reanimated";
 
-import { IListItemProps, EnumRoutes } from "./types.data";
+import { IListItemProps, ScreensNavigationsProps } from "./types.data";
 
 const ListItem: FC<IListItemProps> = ({ title, routeName }) => {
-  const navigation = useNavigation<EnumRoutes>();
+  const navigation = useNavigation<ScreensNavigationsProps>();
   return (
     <Animated.View entering={FadeInDown} style={styles.container}>
       <RectButton
