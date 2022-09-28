@@ -10,4 +10,4 @@ or
 # expo start
 ```
 # Preview animations
-![This is an image](https://drive.google.com/file/d/1cIeMGGoHqEnpVn7mdOhDwTDodyeLYRrz/view)
+![This is an image](https://drive.google.com/uc?export=view&id=1cIeMGGoHqEnpVn7mdOhDwTDodyeLYRrz)
