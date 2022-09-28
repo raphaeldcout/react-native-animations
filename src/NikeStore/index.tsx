@@ -1,1 +1,1 @@
-export { NikeStore, assets } from "./NikeStore";
+export { NikeStore } from "./NikeStore";
